@@ -24,6 +24,10 @@ file = "/path/to/your/directory/input.txt"
 
 To run the test with pytest: python -m pytest test_most_elite_corn_plant.py
 
+The debug flag can be set to True in order to print more detailed information that may be helpful for not only debugging efforts 
+but also to gain a sense of which corn stalks are visible from the edge of the fields. When debug= True and the field is printed, all 
+plants with a '-' sign are visible from a field edge. 
+
 
 
 
